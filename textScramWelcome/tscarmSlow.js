@@ -95,8 +95,8 @@ const introPhrases = [
 const bodPhrases = "" +
     "I'm Arika, currently doing my CS BS/MS @ The University of Oklahoma and working at Boeing as a SWE."+
     " My current projects include: a smart intersection using Multi-agent reinforcement learning in isaac sim (AIROU), " +
-    "autonomous waypoint navigation through dynamic construction sites (CinnaLAB), and " +
-    "digital facial recognition poisoning (thesis)." +
+    "autonomous navigation robot with time to incident prediction in construction sites (CinnaLAB), and " +
+    "digital facial cloaking (thesis)." +
     "\n I'm also a volunteer barista at secondwind coffee, a coffee enthusiast, and rock climber."
 
 const bod = document.querySelector('.WelcomeText')
