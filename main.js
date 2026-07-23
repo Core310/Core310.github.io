@@ -21,12 +21,3 @@ document.querySelectorAll('.lab').forEach(item => {
       if (url) window.open(url, '_blank');
     });
   });
-
-
-/*For labs section*/
-  document.querySelectorAll('.lab').forEach(item => {
-    item.addEventListener('click', () => {
-      const url = item.dataset.url;
-      if (url) window.open(url, '_blank');
-    });
-  });
