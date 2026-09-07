@@ -90,6 +90,8 @@ const introPhrases = [
     'Olà\n',
     'Glad you\'re here!',
     'Suilië',
+    '哈囉',
+
 ]
 
 const bodPhrases = "" +
