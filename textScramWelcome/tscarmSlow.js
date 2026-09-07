@@ -93,11 +93,11 @@ const introPhrases = [
 ]
 
 const bodPhrases = "" +
-    "I'm Arika, currently doing my CS BS/MS @ The University of Oklahoma and working at Boeing as a SWE."+
+    "I'm Arika, a CS BS/MS Studnet @ The University of Oklahoma and a SWE @ Boeing"+
     " My current projects include: a smart intersection using Multi-agent reinforcement learning in isaac sim (AIROU), " +
     "autonomous navigation robot with time to incident prediction in construction sites (CinnaLAB), and " +
     "digital facial cloaking (thesis)." +
-    "\n I'm also a volunteer barista at secondwind coffee, a coffee enthusiast, and rock climber."
+    "\n I'm also a volunteer barista at secondwind coffeehouse, a coffee and homelab enthusiast, and a competitive rock climber&coach."
 
 const bod = document.querySelector('.WelcomeText')
 const fx_bod = new TextScramble(bod)
