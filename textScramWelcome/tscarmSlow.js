@@ -87,19 +87,18 @@ class TextScramble {
 const introPhrases = [
     'Welcome!',
     'Hello!',
-    'Olà\n',
+    'Olá',
     'Glad you\'re here!',
     'Suilië',
     '哈囉',
-
 ]
 
 const bodPhrases = "" +
-    "I'm Arika, a CS BS/MS Studnet @ The University of Oklahoma and a SWE @ Boeing"+
+    "I'm Arika, a CS BS/MS Student @ The University of Oklahoma and a SWE @ Boeing"+
     " My current projects include: a smart intersection using Multi-agent reinforcement learning in isaac sim (AIROU), " +
     "autonomous navigation robot with time to incident prediction in construction sites (CinnaLAB), and " +
     "digital facial cloaking (thesis)." +
-    "\n I'm also a volunteer barista at secondwind coffeehouse, a coffee and homelab enthusiast, and a competitive rock climber&coach."
+    "\n I'm also a volunteer barista at secondwind coffeehouse, a coffee and homelab enthusiast, and a competitive rock climber & coach."
 
 const bod = document.querySelector('.WelcomeText')
 const fx_bod = new TextScramble(bod)
@@ -127,8 +126,6 @@ const next = () => {/*todo get introPhrases to load then bodPhrases so its a con
     })
 }
 
-fx_intro.setFastText(bodPhrases).then(() => {
-    setTimeout(next, 999999)
-})
+fx_intro.setFastText(bodPhrases)
 
 next()

@@ -1,0 +1,10 @@
+# ClearSet local state and index guides
+.cs/
+.continue-here
+RESUME HERE.md
+cs_codebase_index.yml
+cs_directory_structure.yml
+
+# OS clutter
+.DS_Store
+Thumbs.db
